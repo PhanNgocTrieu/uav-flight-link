@@ -1,0 +1,13 @@
+Checks: >
+  -*,
+  modernize-*,
+  cppcoreguidelines-*,
+  performance-*,
+  bugprone-*,
+  -modernize-use-trailing-return-type,
+  -cppcoreguidelines-avoid-magic-numbers,
+  -cppcoreguidelines-pro-bounds-pointer-arithmetic
+
+WarningsAsErrors: ''
+HeaderFilterRegex: '(libs|apps)/.*'
+FormatStyle: file
